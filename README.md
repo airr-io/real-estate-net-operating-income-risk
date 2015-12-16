@@ -1,6 +1,7 @@
-# Vanilla-cash
+# EVCA Fund growth method
 
-Vanilla-cash is a risk model accessible remotely by registered users.
+**EVCA Fund growth method** is a template for configuring a risk model accessible
+remotely by registered users.
 
 ## Access
 
@@ -8,12 +9,12 @@ The model is hosted on http://app.airr.io.
 
 ## Usage
 
-1. Upload a model **input** file. Use the latest [template] (https://raw.githubusercontent.com/advicelogic/vanilla-cash/master/input.xlsx).
+1. Upload a model **config** file. Use the latest [template] (https://raw.githubusercontent.com/advicelogic/evca-fund-growth-method/master/template.xlsx).
 2. Download the model **output** file.
 
-## Model input variables
+## Model config variables
 
-| input variable | definition<sup>1</sup> |
+| config variable | definition<sup>1</sup> |
 | -------------- |------------------------|
 | trials | number of paths per simulation |
 | sample_size | number of paths for stochastic processes and dependent variables |
