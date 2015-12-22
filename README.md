@@ -37,7 +37,6 @@ This template tells the engine that the NOI component should take, at the first 
 |-----------:|
 |       0.10 |
 
-### Discount Rate
+## Output
 
 Running the model on [airr] (http://app.airr.io) provides the following [here] (https://github.com/airr-templates/evca-fund-growth-method/blob/master/examples/real_estate_rental_income_risk_output.xlsx?raw=true).
-
