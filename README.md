@@ -44,7 +44,7 @@ This template tells the engine that the NOI component should take, at the first 
 ### Net_result
 
 |expected value|
-|-:|
+|-------------:|
 |53.57|
 
 |histogram|bin edges|
