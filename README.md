@@ -4,7 +4,7 @@ Risk model accessible on http://app.airr.io remotely by registered users.
 
 ## Usage
 
-1. Upload a model file. Use the latest [template] (https://raw.githubusercontent.com/advicelogic/real-estate-net-operating-income-risk/master/model.xlsx).
+1. Upload a model file. Customize the latest [template] (https://raw.githubusercontent.com/advicelogic/real-estate-net-operating-income-risk/master/model.xlsx).
 2. Download the risk engine output file(s).
 
 ## Template
@@ -47,7 +47,7 @@ The risk engines outputs are, for each cash flow:
 
 ### Statistics examples
 
-#### NOI
+#### NOI_npv
 
 |expected value|
 |-------------:|
@@ -73,7 +73,7 @@ The risk engines outputs are, for each cash flow:
 |1|8.51|
 ||8.55|
 
-#### Net_result
+#### Net_result_npv
 
 |expected value|
 |-------------:|
