@@ -4,14 +4,14 @@ Risk model accessible on http://app.airr.io remotely by registered users.
 
 ## Usage
 
-1. Upload a model file. Use the latest [template] (https://raw.githubusercontent.com/advicelogic/evca-fund-growth-method/master/template.xlsx).
+1. Upload a model file. Use the latest [template] (https://raw.githubusercontent.com/advicelogic/real-estate-net-operating-income-risk/master/model.xlsx).
 2. Download the risk engine output file(s).
 
 ## Template
 
 ### Risk Factor
 
-This model supports the [Geometric Brownian motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion).
+This template supports the [Geometric Brownian motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion).
 A process is defined for the NOI with the following:
 
 |name    | type | initial value |  drift | sigma |
@@ -37,10 +37,17 @@ This template tells the engine that the NOI component should take, at the first 
 |-----------:|
 |       0.10 |
 
+
 ## Output
 
+The risk engines outputs are, for each cash flow:
 
-### NOI
+* statistics : expected value and histogram of net present values
+* paths : all simulated paths
+
+### Statistics examples
+
+#### NOI
 
 |expected value|
 |-------------:|
@@ -66,7 +73,7 @@ This template tells the engine that the NOI component should take, at the first 
 |1|8.51|
 ||8.55|
 
-### Net_result
+#### Net_result
 
 |expected value|
 |-------------:|
@@ -90,8 +97,3 @@ This template tells the engine that the NOI component should take, at the first 
 |0|56.34|
 |1|56.39|
 ||56.43|
-
-
-
-
-Running the model on [airr] (http://app.airr.io) provides the following [here] (https://github.com/airr-templates/evca-fund-growth-method/blob/master/examples/real_estate_rental_income_risk_output.xlsx?raw=true).
