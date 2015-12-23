@@ -7,15 +7,15 @@ Risk model accessible on http://app.airr.io remotely by registered users.
 Consider a projection made of three *important* real estate
 cash flows:
 
-* NOI
-* Capital expenses
-* Terminal Value
+* NOI : the net operating income
+* Capex : the capital expenses
+* TV : the real estate's terminal value
 
 |                  |   eoy1 |  eoy2 |   eoy3 |  eoy4 |   eoy5 |
 |------------------|-----:|----:|-----:|----:|-----:|
 | NOI              |  1.1 | 1.3 |  1.6 | 1.8 |  2.1 |
-| Capital expenses | -0.25 |     | -0.35 |     |    -1 |
-| Terminal value   |      |     |      |     | 78.9 |
+| Capex | -0.25 |     | -0.35 |     |    -1 |
+| TV   |      |     |      |     | 78.9 |
 <sup>(numbers are in $ M)</sup>
 
 The acronym *eoy* stands for *end of year*. This means that, these numbers are
@@ -72,9 +72,11 @@ We'll use our cost of capital of 10%.
 
 The template has default values for:
 
-* name : the actual name of the template
+* template : the actual name of the template
 * trials : the number of trials the engine will run
-* output : the available output files
+* output : the selected output will be produced for each cash flow
+
+Let's go with the defaults.
 
 ![alt text](img/simulation_settings.png)
 
@@ -82,7 +84,20 @@ The template has default values for:
 
 ###statistics
 
-For each cash flow we get:
+For each cash flow, we have a tab with net present value distribution statistics:
 
-* expected value : the net present values mean
-* histogram : the net present values percentiles
+* mean
+* histogram
+* bin edges
+
+Taking into account a uncertainty for the NOI, we still have our net present value of $53.6M.
+*Thats what we call calibration. ;-)*
+
+
+But, having histograms and distributions, we have risk metrics. And, they tell
+us that 95% of the time, the investment would not lose more that $1.6M ($53.6M - $52M).
+
+
+###paths
+
+For each cash flow a file with the trial values.
