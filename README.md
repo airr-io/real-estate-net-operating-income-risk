@@ -13,26 +13,22 @@ Risk model accessible on http://app.airr.io remotely by registered users.
 
 This template supports the [Geometric Brownian motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion).
 
-![Risk Factor](/img/risk_factor.png)
+![alt text](/img/risk_factor.png)
 
 ### Cash Flows
 
 The Cash flows are the financial objects the risk engine will simulate.
 This template tells the engine that the NOI component should take, at the first 5 annual steps, the corresponding value of the risk factor.
 
-|                  |   y1 |  y2 |   y3 |  y4 |   y5 |
-|------------------|-----:|----:|-----:|----:|-----:|
-|NOI|NOI_gbm[1]|NOI_gbm[2]|NOI_gbm[3]|NOI_gbm[4]|NOI_gbm[5]|
-|Capex|-0.25||-0.35||-1|
-|Terminal_value|||||78.9|
-|Net_result|NOI[1]+Capex[1]|NOI[2]|NOI[3]+Capex[3]|NOI[4]|NOI[5]+Capex[5]+Terminal_value[5]|
+![alt text](/img/cash_flows.png)
 
 ### Discount Rate
 
-| discount rate |
-|-----------:|
-|       0.10 |
+![alt text](/img/discount_rate.png)
 
+### Simulation Settings
+
+![alt text](/img/simulation_settings.png)
 
 ## Output
 
