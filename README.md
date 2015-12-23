@@ -2,33 +2,37 @@
 
 Risk model accessible on http://app.airr.io remotely by registered users.
 
-## Usage
+## Documentation
 
-1. Upload a model file. Customize the latest [template] (https://raw.githubusercontent.com/advicelogic/real-estate-net-operating-income-risk/master/model.xlsx).
-2. Download the risk engine output file(s).
+This template is made of four tabs:
 
-## Template
+* [Risk Factor](###-Risk-Factor)
+* Cash Flows
+* Discount Rate
+* Simulation Settings
 
-### Risk Factor
+
+(###-Risk-Factor)
 
 This template supports the [Geometric Brownian motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion).
 
-![alt text](/img/risk_factor.png)
+![alt text](img/risk_factor.png)
 
+(#some-markdown-heading)
 ### Cash Flows
 
 The Cash flows are the financial objects the risk engine will simulate.
 This template tells the engine that the NOI component should take, at the first 5 annual steps, the corresponding value of the risk factor.
 
-![alt text](/img/cash_flows.png)
+![alt text](img/cash_flows.png)
 
 ### Discount Rate
 
-![alt text](/img/discount_rate.png)
+![alt text](img/discount_rate.png)
 
 ### Simulation Settings
 
-![alt text](/img/simulation_settings.png)
+![alt text](img/simulation_settings.png)
 
 ## Output
 
