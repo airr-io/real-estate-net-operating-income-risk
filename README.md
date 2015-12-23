@@ -6,13 +6,13 @@ Risk model accessible on http://app.airr.io remotely by registered users.
 
 This template is made of four tabs:
 
-* [Risk Factor](####Net_result_npv)
+* [Risk Factor](#risk_factor)
 * Cash Flows
 * Discount Rate
 * Simulation Settings
 
 
-
+###Risk Factor
 
 This template supports the [Geometric Brownian motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion).
 
@@ -69,7 +69,7 @@ The risk engines outputs are, for each cash flow:
 |1|8.51|
 ||8.55|
 
-####Net_result_npv
+####<a name="risk_factor"></a> Net_result_npv
 
 |expected value|
 |-------------:|
