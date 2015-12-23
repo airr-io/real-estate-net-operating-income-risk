@@ -11,7 +11,7 @@ cash flows:
 * Capex : the capital expenses
 * TV : the real estate's terminal value
 
-|                  |   eoy1 |  eoy2 |   eoy3 |  eoy4 |   eoy5 |
+|                  |   2016 |  2017 |   2018 |  2019 |   2020 |
 |------------------|-----:|----:|-----:|----:|-----:|
 | NOI              |  1.1 | 1.3 |  1.6 | 1.8 |  2.1 |
 | Capex | -0.25 |     | -0.35 |     |    -1 |
@@ -27,7 +27,7 @@ today, of $53.6M.
 
 Now what about NOI risk.
 
-We have an expected NOI evolution. But, starting from a current value of say $1M,
+We have an expected NOI evolution. But, starting from a 2015 value of say $1M,
 figuring out some possible evolutions of the NOI, what would be the impact on
 our investments performance?
 
