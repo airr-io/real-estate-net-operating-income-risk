@@ -13,11 +13,13 @@ This template is made of four tabs:
 
 ###<a name="risk_factor"></a>Risk Factor
 
-This template supports the [Geometric Brownian motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion).
+This template supports one risk factor in the form of a [Geometric Brownian motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion).
+
+<p><a href="https://commons.wikimedia.org/wiki/File:GeoBM.png#/media/File:GeoBM.png"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/GeoBM.png/1200px-GeoBM.png" alt="GeoBM.png"></a><br>"<a href="https://commons.wikimedia.org/wiki/File:GeoBM.png#/media/File:GeoBM.png">GeoBM</a>" by <a href="//commons.wikimedia.org/wiki/User:Arthena" title="User:Arthena">Arthena</a> - <span class="int-own-work" lang="en" xml:lang="en">Own work</span>. Licensed under <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a> via <a href="https://commons.wikimedia.org/wiki/">Commons</a>.</p>
+
 
 ![alt text](img/risk_factor.png)
 
-(#some-markdown-heading)
 ###<a name="cash_flows"></a>Cash Flows
 
 The Cash flows are the financial objects the risk engine will simulate.
