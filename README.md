@@ -6,7 +6,7 @@ Risk model accessible on http://app.airr.io remotely by registered users.
 
 This template is made of four tabs:
 
-* [Risk Factor](#risk-ractor)
+* [Risk Factor](####Net_result_npv)
 * Cash Flows
 * Discount Rate
 * Simulation Settings
@@ -69,7 +69,7 @@ The risk engines outputs are, for each cash flow:
 |1|8.51|
 ||8.55|
 
-#### Net_result_npv
+####Net_result_npv
 
 |expected value|
 |-------------:|
