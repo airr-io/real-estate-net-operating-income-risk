@@ -12,12 +12,8 @@ Risk model accessible on http://app.airr.io remotely by registered users.
 ### Risk Factor
 
 This template supports the [Geometric Brownian motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion).
-A process is defined for the NOI with the following:
 
-|name    | type | initial value |  drift | sigma |
-|-------:|-----:|--------------:|-------:|------:|
-| NOI_gbm |   gbm|             1 | 0.1375 |  0.06 |
-
+![Risk Factor](/img/risk_factor.png)
 
 ### Cash Flows
 
