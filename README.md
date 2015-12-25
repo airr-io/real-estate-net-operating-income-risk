@@ -4,32 +4,25 @@ Risk model accessible on http://app.airr.io remotely by registered users.
 
 ##Use Case
 
-Consider a projection made of three *important* real estate
-cash flows:
+A projection made, in 2015, estimates a real estate's three *important*
+cash flows: the net operating income, capital expenses and its terminal value.
 
-* NOI : the net operating income
-* Capex : the capital expenses
-* TV : the real estate's terminal value
-
-|                  |   2016 |  2017 |   2018 |  2019 |   2020 |
-|------------------|-----:|----:|-----:|----:|-----:|
-| NOI              |  1.1 | 1.3 |  1.6 | 1.8 |  2.1 |
-| Capex | -0.25 |     | -0.35 |     |    -1 |
-| TV   |      |     |      |     | 78.9 |
+|   |2015|   2016 |  2017 |   2018 |  2019 |   2020 |
+|---|---:|---:|---:|----:|-----:|----:|
+| NOI| |1.1|1.3|1.6|1.8|2.1|
+| Capex| |-0.25||-0.35||-1 |
+| TV| | | | | |78.9|
+| Result| |0.85|1.3|1.25|1.8|75.8|
+| NPV@10%|53.6||||||
 <sup>(numbers are in $ M)</sup>
 
-The acronym *eoy* stands for *end of year*. This means that, these numbers are
-projections of what our investment would make after one year, after two years...
+While there's some uncertainty in all variables, we have established the NOI
+as the risk factor where the range of values is the most significant.
 
-With a [cost of capital](https://en.wikipedia.org/wiki/Cost_of_capital) of say 10%,
-we have a [net present value](https://en.wikipedia.org/wiki/Net_present_value),
-today, of $53.6M.
+Based on some research the NOI is expected to behave like a [Geometric Brownian motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion) with a annual growth rate of 13.75%
+and a volatility of 6%.
 
-Now what about NOI risk.
-
-We have an expected NOI evolution. But, starting from a 2015 value of say $1M,
-figuring out some possible evolutions of the NOI, what would be the impact on
-our investments performance?
+To turn the projection into a risk model we can use our template .
 
 ##Configuration
 
@@ -41,7 +34,7 @@ our investments performance?
 ###<a name="risk_factor"></a>Risk Factor
 
 Lets include uncertainty by defining a [stochastic process](https://en.wikipedia.org/wiki/Stochastic_process)
-for the NOI. Currently, this template only supports the [Geometric Brownian motion](https://en.wikipedia.org/wiki/Geometric_Brownian_motion).
+for the NOI. Currently, this template only supports the .
 We could give it a try with the following parameters:
 
 * initial value : $1M
